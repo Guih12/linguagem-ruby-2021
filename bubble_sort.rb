@@ -8,7 +8,7 @@ def bubble_sort (array)
         swap_count += 1
       end
     end
-    break if swap_count == 0 # this means it's ordered
+    break if swap_count == 0 
   end
   array
 end
